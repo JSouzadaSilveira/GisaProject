@@ -1,0 +1,92 @@
+html body {
+    background-color: black !important;
+}
+
+
+/* BUTTONS  */
+#surpriseButton {
+    color: white;
+    background-color: rgb(0, 132, 255);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 9px 3px rgba(36, 153, 207, 0.4);
+
+}
+#surpriseButton:hover {
+    outline: 2px solid white;
+    box-shadow: 0px 0px 20px 15px rgba(36, 153, 207, 0.4);
+}
+
+#sumCount {
+    color: white;
+    background-color: rgb(23, 97, 37);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 9px 3px rgba(8, 243, 35, 0.918);
+}
+#sumCount:hover {
+    outline: 2px solid white;
+    box-shadow: 0px 0px 20px 7px rgba(8, 243, 35, 0.918);
+}
+
+#restartButton{
+    color: white;
+    background-color: rgb(155, 19, 19);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 9px 3px rgba(255, 0, 0, 0.468);
+
+}
+#restartButton:hover {
+    outline: 2px solid white;
+    box-shadow: 0px 0px 20px 15px rgba(255, 0, 0, 0.468);
+}
+
+
+
+/* LOADBAR */
+.progress {
+    box-shadow: 0px 0px 20px 3px rgb(7 223 245 / 54%);
+}
+#loadBar {
+    box-shadow: 0px 0px 20px 15px rgba(7 223 245 / 54%);
+}
+
+
+
+
+/* MODAL */
+.modal-content {
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+}
+
+.modal-body {
+    display: flex;
+}
+
+#modalTitle {
+    text-shadow: 4px 2px 20px rgb(7 223 245 / 54%)
+}
+
+#modalText {
+    margin: 20px 20px 0px 40px;
+}
+
+#imgModal {
+    width: 200px;
+    max-width: 200px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px 1px rgb(7 223 245 / 54%)
+}
+
+
+
+/* FOOTER */
+.footer{
+    color: white;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
