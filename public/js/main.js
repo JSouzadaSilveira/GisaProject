@@ -33,7 +33,7 @@ let reload = () => {
 
 //Count control
 function degreeCount() { 
-    a -= b;
+    if (a > 0) a -= b;
     barLoad();
 }
 
